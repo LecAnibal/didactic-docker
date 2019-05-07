@@ -9,7 +9,7 @@ our docker image  my-docker-image.
     $ docker build -t my-java-image  .
 
 #### - Usage
-   $ docker run --name java-cntnr   my-java-image java -version 
+    docker run --name java-cntnr   my-java-image java -version 
     openjdk version "1.8.0_212"
     OpenJDK Runtime Environment (IcedTea 3.12.0) (Alpine 8.212.04-r0)
     OpenJDK 64-Bit Server VM (build 25.212-b04, mixed mode)
