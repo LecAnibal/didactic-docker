@@ -15,3 +15,10 @@
 #### - Set Last command 
 	CMD ["java","HelloWorld"]
 
+
+## Build Docker file 
+	$ docker build -t my-app-image  .
+
+#### - Run Container 
+	$ docker run --name java-app my-app-image
+	Hello, World 
